@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Technical Document" />
+    <title>Nguyen's Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <div class="flex-container">
+          <div class="logo">
+          <img src="https://cdn-icons-png.flaticon.com/512/8900/8900415.png" id="header-img" alt="product-logo"> <h1 id="logo-title">Nguyen's GPU Store</h1>
+          </div>
+          <div class="nav-container">
+          <nav id ="nav-bar">
+            <ul>
+              <div class="nav-link-container">
+            <li><a class="nav-link" href="#specs">Product Specs</a></li>
+            <li><a class="nav-link" href="#video">Video</a></li>
+            <li><a class="nav-link" href="#price">Buy</a></li>
+              </div>
+            </ul>
+          </nav>
+          </div>
+        </div>
+      </header>
+      <section id="hero">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <h2>More Info</h2>
+          <input name="email" id="email" type="email" placeholder="Email">
+          <input id="submit" type="submit" value="Send">
+        </form>
+      </section>
+    </main>
+      <section id="specs">
+        <img id="product-img" src="https://m.media-amazon.com/images/I/71PSxIuhYJL.jpg">
+        <h2 id="product-title">AMD RX 7600 XT</h2>
+        <p>The Radeon RX 7600 XT is a performance-segment graphics card by AMD, launched on January 8th, 2024. Built on the 6 nm process, and based on the Navi 33 graphics processor, in its Navi 33 XT variant, the card supports DirectX 12 Ultimate. This ensures that all modern games will run on Radeon RX 7600 XT. Additionally, the DirectX 12 Ultimate capability guarantees support for hardware-raytracing, variable-rate shading and more, in upcoming video games. </p>
+        <p>he Navi 33 graphics processor is an average sized chip with a die area of 204 mm² and 13,300 million transistors. It features 2048 shading units, 128 texture mapping units, and 64 ROPs. The card also has 32 raytracing acceleration cores. AMD has paired 16 GB GDDR6 memory with the Radeon RX 7600 XT, which are connected using a 128-bit memory interface. The GPU is operating at a frequency of 1980 MHz, which can be boosted up to 2755 MHz, memory is running at 2250 MHz (18 Gbps effective).</p>
+        <p>
+          Being a dual-slot card, the AMD Radeon RX 7600 XT draws power from 1x 8-pin power connector, with power draw rated at 190 W maximum. Display outputs include: 1x HDMI 2.1a, 3x DisplayPort 2.1. Radeon RX 7600 XT is connected to the rest of the system using a PCI-Express 4.0 x8 interface. The card measures 204 mm in length, 115 mm in width, and features a dual-slot cooling solution. Its price at launch was 329 US Dollars.
+        </p>
+      </section>
+      <section>
+        <iframe id="video" width="500" height="400"
+src="https://www.youtube.com/embed/59It08CU028">
+</iframe>
+      </section>
+      <section id="price">
+        <button id="buy"><a href="https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-R76XTGAMING-OC-16GD/dp/B0CSVJZNNX/ref=asc_df_B0CSVJZNNX/?tag=hyprod-20&linkCode=df0&hvadid=693495256271&hvpos=&hvnetw=g&hvrand=1866029737750600852&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032814&hvtargid=pla-2283893267184&psc=1&mcid=29b07b5c3b943a3496a509f877fc717e" target="_blank">Buy Here</a></button>
+        </section>
+  </body>
+</html>
